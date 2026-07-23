@@ -300,6 +300,7 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
                       theme === "light" ? data.lightProfile : data.darkProfile
                     }
                     alt={data.name}
+                    decoding="async"
                     className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                   />
                 ) : (

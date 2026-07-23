@@ -86,6 +86,8 @@ const ProjectCard = ({
           <motion.img
             src={project.image || ""}
             alt={project.title}
+            loading="lazy"
+            decoding="async"
             className="w-full h-full object-cover"
             animate={
               isActive

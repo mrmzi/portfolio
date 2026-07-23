@@ -53,9 +53,9 @@ export const personalInfo: PersonalInfo = {
   email: "rezamiryazdi051@gmail.com",
   linkedin: "https://linkedin.com/in/mreza-miryazdi",
   github: "https://github.com/mrmzi",
-  avatar: "/images/profile/light-profile.png",
-  lightProfile: "/images/profile/light-profile.png",
-  darkProfile: "/images/profile/dark-profile.png"
+  avatar: "/images/profile/light-profile.webp",
+  lightProfile: "/images/profile/light-profile.webp",
+  darkProfile: "/images/profile/dark-profile.webp"
 };
 
 export const skills = [
@@ -122,7 +122,7 @@ export const projects: Project[] = [
     shortDesc: "A banking dashboard with secure auth and data management.",
     fullDesc:
       "A full-featured banking dashboard built with Vue.js and Sass. Implements JWT-based authentication, Pinia for state management, and Axios for API communication. Focused on security, clean UI, and efficient data flow.",
-    image: '/images/projects/part-bank.png',
+    image: '/images/projects/part-bank.webp',
     tags: ["Vue.js", "Sass", "JWT"],
     techStack: ["Vue.js", "Pinia", "Axios", "Sass", "JWT"],
     githubUrl: 'https://github.com/mrmzi/part-bank',
@@ -136,7 +136,7 @@ export const projects: Project[] = [
     shortDesc: "A web template marketplace powered by Supabase.",
     fullDesc:
       "A marketplace for web templates built with React and Next.js. Uses Supabase for authentication and database management. Features include template browsing, user accounts, and a clean checkout flow.",
-    image: '/images/projects/ghalebino.png',
+    image: '/images/projects/ghalebino.webp',
     tags: ["React", "Next.js", "Supabase"],
     techStack: ["React", "Next.js", "Supabase", "Tailwind CSS"],
     githubUrl: 'https://github.com/mrmzi/Ghalebino',
@@ -150,7 +150,7 @@ export const projects: Project[] = [
     shortDesc: "SSR blog platform with SEO and admin dashboard.",
     fullDesc:
       "A blog management application built with Next.js. Leverages server-side rendering for SEO optimization, includes a clean admin dashboard for content management, and uses Context API for state.",
-    image: '/images/projects/blog-app.png',
+    image: '/images/projects/blog-app.webp',
     tags: ["Next.js", "SSR", "Tailwind CSS"],
     techStack: ["Next.js", "SSR", "Context API", "Tailwind CSS"],
     githubUrl: 'https://github.com/mrmzi/next-blog-app.git',
@@ -164,7 +164,7 @@ export const projects: Project[] = [
     shortDesc: "Hotel booking app with protected routes and login flow.",
     fullDesc:
       "A hotel booking website built with React. Features protected routes, a fake backend for development, and a complete login/auth flow. Focused on routing architecture and user experience.",
-    image: '/images/projects/booking-hotel.png',
+    image: '/images/projects/booking-hotel.webp',
     tags: ["React", "React Router", "Context API"],
     techStack: ["React", "React Router", "Context API"],
     githubUrl: 'https://github.com/mrmzi/Booking-Hotel',
@@ -178,7 +178,7 @@ export const projects: Project[] = [
     shortDesc: "Character explorer with custom hooks and async fetching.",
     fullDesc:
       "A character explorer app using the Rick and Morty public API. Built with custom hooks for data fetching, modal-based character details, and clean async state management.",
-    image: '/images/projects/rick-and-morty.png',
+    image: '/images/projects/rick-and-morty.webp',
     tags: ["React", "REST API", "Custom Hooks"],
     techStack: ["React", "REST API", "Custom Hooks"],
     githubUrl: ' https://github.com/mrmzi/Rick-And-Morty-API',
