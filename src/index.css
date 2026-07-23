@@ -6,7 +6,7 @@
 /* Font faces */
 @font-face {
   font-family: 'porta';
-  src: url('../public/fonts/Potra.otf');
+  src: url('/fonts/Potra.otf');
 }
 
 /* Global font */
